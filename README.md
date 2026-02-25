@@ -34,7 +34,7 @@
 ![Agentic Mode](https://raw.githubusercontent.com/uXmii/DocuMindAI/main/Screenshot%202026-02-25%20014759.png)
 
 **Multimodal Query — Vision AI understands charts and diagrams**
-![Visual Query Modal](https://drive.google.com/uc?export=view&id=1tlHadMW2GumXzEOpYaXPBE1MFnbo_sEF)
+![Visual Query Modal](https://raw.githubusercontent.com/uXmii/DocuMindAI/main/Screenshot%202026-02-25%20015049.png)
 
 > Evaluation screenshot coming soon
 
