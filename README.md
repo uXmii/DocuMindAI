@@ -19,16 +19,26 @@
 
 ## ✨ Features
 
-- 🔮 **True Multimodal RAG** — Gemini Vision understands charts, diagrams, tables, and images in PDFs — not just text
-- ⚡ **Hybrid Search** — Combines semantic vector search (all-MiniLM), BM25 keyword search, and CLIP image embeddings via Reciprocal Rank Fusion
-- 🤖 **Agentic Intelligence** — LangGraph agent analyzes each question, evaluates all search modes, selects the best answer, and self-refines if quality is low
-- 📊 **LLM-as-Judge Evaluation** — Gemini scores answer faithfulness and completeness without needing ground truth
-- 🌐 **External Factual Check** — Independent verification of answers against general knowledge
-- 🔁 **Consistency Testing** — Measures how stable answers are across repeated runs
-- 💡 **Winner Reasoning** — Explains *why* a particular search method won for each question type
+-  **Multimodal RAG** — Gemini Vision understands charts, diagrams, tables, and images in PDFs — not just text
+-  **Hybrid Search** — Combines semantic vector search (all-MiniLM), BM25 keyword search, and CLIP image embeddings via Reciprocal Rank Fusion
+-  **Agentic Intelligence** — LangGraph agent analyzes each question, evaluates all search modes, selects the best answer, and self-refines if quality is low
+-  **LLM-as-Judge Evaluation** — Gemini scores answer faithfulness and completeness without needing ground truth
+-  **External Factual Check** — Independent verification of answers against general knowledge
+-  **Consistency Testing** — Measures how stable answers are across repeated runs
+-  **Winner Reasoning** — Explains *why* a particular search method won for each question type
 
 ---
+## Snapshots
 
+**Agentic Mode — AI agent shows its full decision process**
+![Agentic Mode](https://drive.google.com/uc?export=view&id=16PwTzPKEU8YhHG6CWVz-dzAMXxDi1qcu)
+
+**Multimodal Query — Vision AI understands charts and diagrams**
+![Visual Query Modal](https://drive.google.com/uc?export=view&id=1tlHadMW2GumXzEOpYaXPBE1MFnbo_sEF)
+
+> Evaluation screenshot coming soon
+
+---
 ## 🏗 Architecture
 
 ```
@@ -59,7 +69,7 @@
 
 ---
 
-## 🚀 Quick Setup
+##  Quick Setup
 
 ### Prerequisites
 - Python 3.10+
@@ -140,7 +150,7 @@ PDF Upload
 
 ---
 
-### 🔎 Hybrid Search (3-way Fusion)
+###  Hybrid Search (3-way Fusion)
 
 Every query runs three searches simultaneously:
 
@@ -159,7 +169,7 @@ This rewards documents that appear highly ranked in multiple search modes.
 
 ---
 
-### 🤖 Agentic RAG (LangGraph)
+###  Agentic RAG (LangGraph)
 
 The agent follows a deterministic graph:
 
@@ -373,7 +383,7 @@ DocuMind-AI/
 
 ---
 
-## 🪟 Windows: Poppler Setup (for Vision Processing)
+##  Windows: Poppler Setup (for Vision Processing)
 
 Vision processing requires Poppler to convert PDF pages to images:
 
@@ -386,7 +396,7 @@ Without Poppler, the system still works — it just uses text extraction only (n
 
 ---
 
-## 🧩 Integrating Into Your Own Project
+##  Integrating Into Your Own Project
 
 The core components are modular and can be used independently:
 
@@ -418,7 +428,7 @@ result = agent.query("complex question requiring multi-step reasoning")
 
 ---
 
-## 📚 Key Concepts to Learn From
+## Key Concepts to Learn From
 
 | Concept | File | What to study |
 |---------|------|--------------|
