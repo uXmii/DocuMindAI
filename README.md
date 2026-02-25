@@ -31,7 +31,7 @@
 ## Snapshots
 
 **Agentic Mode — AI agent shows its full decision process**
-![Agentic Mode](https://drive.google.com/uc?export=view&id=16PwTzPKEU8YhHG6CWVz-dzAMXxDi1qcu)
+https://github.com/uXmii/DocuMindAI/blob/main/Screenshot%202026-02-25%20014759.png
 
 **Multimodal Query — Vision AI understands charts and diagrams**
 ![Visual Query Modal](https://drive.google.com/uc?export=view&id=1tlHadMW2GumXzEOpYaXPBE1MFnbo_sEF)
