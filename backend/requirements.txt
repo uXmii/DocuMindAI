@@ -1,0 +1,36 @@
+flask==3.0.0
+flask-cors==4.0.0
+python-dotenv==1.0.0
+chromadb==0.4.18
+sentence-transformers>=5.0.0
+PyPDF2==3.0.1
+rank-bm25==0.2.2
+numpy==1.24.3
+
+# Multimodal Support
+pytesseract==0.3.10          # optional — fallback OCR if no vision API key
+Pillow==10.2.0
+pdf2image==1.17.0
+camelot-py==0.11.0           # optional — supplementary table extraction
+opencv-python==4.9.0.80
+
+# Vision LLM + LLM Judge
+# Set GEMINI_API_KEY in .env for free tier (recommended)
+# Fallback: ANTHROPIC_API_KEY or OPENAI_API_KEY
+google-generativeai>=0.5.0   # Gemini — free tier, vision + judge + generation
+anthropic>=0.25.0            # optional fallback
+openai>=1.14.0               # optional fallback
+
+# True multimodal retrieval — CLIP embeds images & text in the same vector space
+# This is what makes it production multimodal RAG (not just vision → text)
+sentence-transformers>=2.2.0  # includes clip-ViT-B-32; installs torch automatically
+
+# Evaluation Metrics
+scikit-learn==1.4.0
+pandas==2.2.0
+matplotlib==3.8.2
+seaborn==0.13.1
+openpyxl>=3.1.0              # Excel export
+
+# Agentic RAG
+langgraph>=0.1.0
